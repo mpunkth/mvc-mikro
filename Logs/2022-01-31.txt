@@ -1,0 +1,134 @@
+[31-Jan-2022 16:30:04 Europe/Berlin] Uncaught exception: 'Exception'
+Message: 'No route matched'
+Stack trace: #0 C:\xampp\htdocs\mvc-course\public\index.php(75): Core\Router->dispatch('bla')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\mvc-course\Core\Router.php' on line '130
+[31-Jan-2022 16:30:04 Europe/Berlin] Uncaught exception: 'Exception'
+Message: 'No route matched'
+Stack trace: #0 C:\xampp\htdocs\mvc-course\public\index.php(75): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\mvc-course\Core\Router.php' on line '130
+[31-Jan-2022 16:30:15 Europe/Berlin] Uncaught exception: 'Exception'
+Message: 'No route matched'
+Stack trace: #0 C:\xampp\htdocs\mvc-course\public\index.php(75): Core\Router->dispatch('bla')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\mvc-course\Core\Router.php' on line '130
+[31-Jan-2022 16:30:15 Europe/Berlin] Uncaught exception: 'Exception'
+Message: 'No route matched'
+Stack trace: #0 C:\xampp\htdocs\mvc-course\public\index.php(75): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\mvc-course\Core\Router.php' on line '130
+[31-Jan-2022 16:30:26 Europe/Berlin] Uncaught exception: 'Exception'
+Message: 'No route matched'
+Stack trace: #0 C:\xampp\htdocs\mvc-course\public\index.php(75): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\mvc-course\Core\Router.php' on line '130
+[31-Jan-2022 16:31:25 Europe/Berlin] Uncaught exception: 'Exception'
+Message: 'No route matched'
+Stack trace: #0 C:\xampp\htdocs\mvc-course\public\index.php(75): Core\Router->dispatch('soljdkhf')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\mvc-course\Core\Router.php' on line '130
+[31-Jan-2022 16:31:25 Europe/Berlin] Uncaught exception: 'Exception'
+Message: 'No route matched'
+Stack trace: #0 C:\xampp\htdocs\mvc-course\public\index.php(75): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\mvc-course\Core\Router.php' on line '130
+[31-Jan-2022 16:31:33 Europe/Berlin] Uncaught exception: 'Exception'
+Message: 'No route matched'
+Stack trace: #0 C:\xampp\htdocs\mvc-course\public\index.php(75): Core\Router->dispatch('soljdkhf')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\mvc-course\Core\Router.php' on line '130
+[31-Jan-2022 16:31:33 Europe/Berlin] Uncaught exception: 'Exception'
+Message: 'No route matched'
+Stack trace: #0 C:\xampp\htdocs\mvc-course\public\index.php(75): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\mvc-course\Core\Router.php' on line '130
+[31-Jan-2022 16:36:51 Europe/Berlin] Uncaught exception: 'Exception'
+Message: 'No route matched'
+Stack trace: #0 C:\xampp\htdocs\mvc-course\public\index.php(75): Core\Router->dispatch('soljdkhf')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\mvc-course\Core\Router.php' on line '130
+[31-Jan-2022 16:36:51 Europe/Berlin] Uncaught exception: 'Exception'
+Message: 'No route matched'
+Stack trace: #0 C:\xampp\htdocs\mvc-course\public\index.php(75): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\mvc-course\Core\Router.php' on line '130
+[31-Jan-2022 16:37:22 Europe/Berlin] Uncaught exception: 'Exception'
+Message: 'No route matched'
+Stack trace: #0 C:\xampp\htdocs\mvc-course\public\index.php(75): Core\Router->dispatch('sdkjfhsdf')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\mvc-course\Core\Router.php' on line '130
+[31-Jan-2022 16:38:04 Europe/Berlin] Uncaught exception: 'Exception'
+Message: 'No route matched'
+Stack trace: #0 C:\xampp\htdocs\mvc-course\public\index.php(75): Core\Router->dispatch('sdkjfhsdf')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\mvc-course\Core\Router.php' on line '130
+[31-Jan-2022 16:38:06 Europe/Berlin] Uncaught exception: 'Twig\Error\LoaderError'
+Message: 'Unable to find template "Home/inde.html.twig" (looked into: ../App/Views).'
+Stack trace: #0 C:\xampp\htdocs\mvc-course\Vendor\twig\twig\src\Loader\FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('Home/inde.html....')
+#1 C:\xampp\htdocs\mvc-course\Vendor\twig\twig\src\Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('Home/inde.html....')
+#2 C:\xampp\htdocs\mvc-course\Vendor\twig\twig\src\Environment.php(309): Twig\Environment->getTemplateClass('Home/inde.html....')
+#3 C:\xampp\htdocs\mvc-course\Vendor\twig\twig\src\Environment.php(277): Twig\Environment->load('Home/inde.html....')
+#4 C:\xampp\htdocs\mvc-course\Core\View.php(59): Twig\Environment->render('Home/inde.html....', Array)
+#5 C:\xampp\htdocs\mvc-course\App\Controllers\Home.php(53): Core\View::renderTemplate('Home/inde.html....', Array)
+#6 [internal function]: App\Controllers\Home->indexAction()
+#7 C:\xampp\htdocs\mvc-course\Core\Controller.php(46): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\mvc-course\Core\Router.php(122): Core\Controller->__call('index', Array)
+#9 C:\xampp\htdocs\mvc-course\public\index.php(75): Core\Router->dispatch('')
+#10 {main}
+Thrown in 'C:\xampp\htdocs\mvc-course\Vendor\twig\twig\src\Loader\FilesystemLoader.php' on line '227
+[31-Jan-2022 16:40:23 Europe/Berlin] Uncaught exception: 'Exception'
+Message: 'Controller class App\Controllers\Strom not found'
+Stack trace: #0 C:\xampp\htdocs\mvc-course\public\index.php(75): Core\Router->dispatch('strom/stark')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\mvc-course\Core\Router.php' on line '127
+[31-Jan-2022 16:40:32 Europe/Berlin] Uncaught exception: 'Exception'
+Message: 'No route matched'
+Stack trace: #0 C:\xampp\htdocs\mvc-course\public\index.php(75): Core\Router->dispatch('kdjfhgsadf')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\mvc-course\Core\Router.php' on line '130
+[31-Jan-2022 16:40:38 Europe/Berlin] Uncaught exception: 'Exception'
+Message: 'No route matched'
+Stack trace: #0 C:\xampp\htdocs\mvc-course\public\index.php(75): Core\Router->dispatch('asda')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\mvc-course\Core\Router.php' on line '130
+[31-Jan-2022 16:40:45 Europe/Berlin] Uncaught exception: 'Exception'
+Message: 'No route matched'
+Stack trace: #0 C:\xampp\htdocs\mvc-course\public\index.php(75): Core\Router->dispatch('strom/')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\mvc-course\Core\Router.php' on line '130
+[31-Jan-2022 16:40:49 Europe/Berlin] Uncaught exception: 'Exception'
+Message: 'Controller class App\Controllers\Strom not found'
+Stack trace: #0 C:\xampp\htdocs\mvc-course\public\index.php(75): Core\Router->dispatch('strom/stark')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\mvc-course\Core\Router.php' on line '127
+[31-Jan-2022 16:41:23 Europe/Berlin] Uncaught exception: 'Exception'
+Message: 'Controller class App\Controllers\Strom not found'
+Stack trace: #0 C:\xampp\htdocs\mvc-course\public\index.php(75): Core\Router->dispatch('strom/stark')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\mvc-course\Core\Router.php' on line '127
+[31-Jan-2022 16:41:36 Europe/Berlin] Uncaught exception: 'Exception'
+Message: 'Controller class App\Controllers\Strom not found'
+Stack trace: #0 C:\xampp\htdocs\mvc-course\public\index.php(75): Core\Router->dispatch('strom/stark')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\mvc-course\Core\Router.php' on line '127
+[31-Jan-2022 16:41:38 Europe/Berlin] Uncaught exception: 'Exception'
+Message: 'Controller class App\Controllers\Strom not found'
+Stack trace: #0 C:\xampp\htdocs\mvc-course\public\index.php(75): Core\Router->dispatch('strom/stark')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\mvc-course\Core\Router.php' on line '127
+[31-Jan-2022 16:47:48 Europe/Berlin] Uncaught exception: 'Exception'
+Message: 'Controller class App\Controllers\Strom not found'
+Stack trace: #0 C:\xampp\htdocs\mvc-course\public\index.php(75): Core\Router->dispatch('strom/stark')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\mvc-course\Core\Router.php' on line '127
+[31-Jan-2022 16:48:03 Europe/Berlin] Uncaught exception: 'Exception'
+Message: 'Method indexAction (in controller App\Controllers\Posts cannot be called directly'
+Stack trace: #0 C:\xampp\htdocs\mvc-course\public\index.php(75): Core\Router->dispatch('Posts/indexActi...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\mvc-course\Core\Router.php' on line '124
+[31-Jan-2022 16:48:15 Europe/Berlin] Uncaught exception: 'Exception'
+Message: 'No route matched'
+Stack trace: #0 C:\xampp\htdocs\mvc-course\public\index.php(75): Core\Router->dispatch('products')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\mvc-course\Core\Router.php' on line '130
