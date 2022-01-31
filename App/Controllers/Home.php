@@ -11,7 +11,6 @@ use Twig\Error\SyntaxError;
 /**
  * Home controller
  *
- * PHP version 8
  */
 
 class Home extends Controller

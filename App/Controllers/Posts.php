@@ -10,7 +10,6 @@ use Core\View;
 /**
  * Posts controller
  *
- * PHP Version 8
  */
 class Posts extends Controller
 {

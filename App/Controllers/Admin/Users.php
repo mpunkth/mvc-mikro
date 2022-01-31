@@ -5,7 +5,6 @@ namespace App\Controllers\Admin;
 /**
  * User admin controller
  *
- * PHP Version 8
  */
 class Users extends \Core\Controller
 {

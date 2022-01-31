@@ -4,7 +4,6 @@
 /**
  * Front Controller
  *
- * PHP Version 8
  */
 
 //echo "Requested URL = " . $_SERVER["QUERY_STRING"];

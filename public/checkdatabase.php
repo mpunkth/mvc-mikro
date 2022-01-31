@@ -6,7 +6,6 @@
  *
  * *** Temporary script that should be deleted before putting live! ***
  *
- * PHP version 5.4
  */
 
 /**
