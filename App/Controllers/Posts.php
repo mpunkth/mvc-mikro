@@ -1,10 +1,14 @@
 <?php
 
+declare(strict_types=1);
 namespace App\Controllers;
 
 use App\Models\Post;
 use Core\Controller;
 use Core\View;
+use Twig\Error\LoaderError;
+use Twig\Error\RuntimeError;
+use Twig\Error\SyntaxError;
 
 
 /**
@@ -18,6 +22,9 @@ class Posts extends Controller
      * Show the index page
      *
      * @return void
+     * @throws LoaderError
+     * @throws RuntimeError
+     * @throws SyntaxError
      */
     public function indexAction()
     {

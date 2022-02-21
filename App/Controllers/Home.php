@@ -1,5 +1,5 @@
 <?php
-
+declare(strict_types=1);
 namespace App\Controllers;
 
 use Core\Controller;
@@ -40,7 +40,7 @@ class Home extends Controller
      * @throws RuntimeError
      * @throws SyntaxError
      */
-    public function indexAction()
+    public function indexAction():void
     {
 //        echo 'Hello from the index action in the Home controller!';
 //        View::render('Home/index.php', [

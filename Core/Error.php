@@ -1,9 +1,13 @@
 <?php
 
+declare(strict_types=1);
 namespace Core;
 
 use App\Config;
 use ErrorException;
+use Twig\Error\LoaderError;
+use Twig\Error\RuntimeError;
+use Twig\Error\SyntaxError;
 
 class Error
 {
@@ -28,6 +32,9 @@ class Error
      * Exception handler
      *
      * @param $exception
+     * @throws LoaderError
+     * @throws RuntimeError
+     * @throws SyntaxError
      */
     public static function exceptionHandler($exception)
     {

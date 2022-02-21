@@ -2,11 +2,13 @@
 
 namespace App\Controllers\Admin;
 
+use Core\Controller;
+
 /**
  * User admin controller
  *
  */
-class Users extends \Core\Controller
+class Users extends Controller
 {
     /**
      * Before filter

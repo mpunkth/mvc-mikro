@@ -1,5 +1,6 @@
 <?php
 
+declare(strict_types=1);
 namespace App\Models;
 
 use Core\Model;
@@ -13,7 +14,7 @@ class Post extends Model
      *
      * @return array|false
      */
-    public static function getAll()
+    public static function getAll(): bool|array
     {
         $db = static::getDB();
         $stmt = $db->query("SELECT id, title, content FROM posts ORDER BY created_at");

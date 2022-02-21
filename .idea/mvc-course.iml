@@ -10,6 +10,8 @@
       <excludeFolder url="file://$MODULE_DIR$/Vendor/symfony/polyfill-ctype" />
       <excludeFolder url="file://$MODULE_DIR$/Vendor/symfony/polyfill-mbstring" />
       <excludeFolder url="file://$MODULE_DIR$/Vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/Vendor/squizlabs/php_codesniffer" />
+      <excludeFolder url="file://$MODULE_DIR$/Vendor/phpcompatibility/php-compatibility" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

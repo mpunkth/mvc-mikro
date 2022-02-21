@@ -1,5 +1,5 @@
 <?php
-
+declare(strict_types=1);
 namespace Core;
 
 use Exception;
@@ -13,31 +13,31 @@ class Router
     /**
      * Routing Table inside an associative array
      */
-    protected $routes = [];
+    protected array $routes = [];
 
     /**
      * Parameters from matched route
      *
      * @var array
      */
-    protected $params = [];
+    protected array $params = [];
 
     /**
      * adds a route to routing table
      *
-     * @param $route
-     * @param $params
+     * @param string $route
+     * @param array $params
      */
-    public function add($route, $params = [])
+    public function add(string $route, array $params = [])
     {
         // Convert the route to a regular expression: escape forward slashes
         $route = preg_replace('/\//', '\\/', $route);
 
         // Convert variables e.g. {controller}
-        $route = preg_replace('/\{([a-z0-9-]+)\}/', '(?<\1>[a-z0-9-]+)', $route);
+        $route = preg_replace('/{([a-z0-9-]+)}/', '(?<\1>[a-z0-9-]+)', $route);
 
         // Convert variables with custom regex e.g. {id:\d+}
-        $route = preg_replace('/\{([a-z]+):([^\}]+)\}/', '(?<\1>\2)', $route);;
+        $route = preg_replace('/{([a-z]+):([^}]+)}/', '(?<\1>\2)', $route);;
 
         // Add start and end delimiters, and case insensitive flag
         $route = '/^' . $route . '$/i';
@@ -48,10 +48,10 @@ class Router
     /**
      * URl match to routing method
      *
-     * @param $url
+     * @param string $url
      * @return bool
      */
-    public function match($url)
+    public function match(string $url): bool
     {
         /* Leftover regex from fixed url structure. it matches /controller/action only
                 $reg_ex = '/^(?<controller>[a-z0-9-]+)\/(?<action>[a-z0-9-]+)$/';
@@ -76,7 +76,7 @@ class Router
      *
      * @return array
      */
-    public function getParams()
+    public function getParams(): array
     {
         return $this->params;
     }
@@ -86,7 +86,7 @@ class Router
      *
      * @return array
      */
-    public function getRoutes()
+    public function getRoutes(): array
     {
         return $this->routes;
     }
@@ -101,7 +101,7 @@ class Router
      * @throws Exception
      */
 
-    public function dispatch($url)
+    public function dispatch(string $url): void
     {
         $url = $this->removeQueryStringVariables($url);
 
@@ -134,10 +134,10 @@ class Router
      * Convert the string with hyphens to StudlyCaps,
      * e.g. post-authors => PostAuthors
      *
-     * @param $string
+     * @param string $string
      * @return string
      */
-    protected function convertToStudlyCaps($string)
+    protected function convertToStudlyCaps(string $string): string
     {
         return str_replace(' ', '', ucwords(str_replace('-', ' ', $string)));
     }
@@ -146,10 +146,10 @@ class Router
      * Convert the string with hyphens to CamelCase,
      * e.g. add-new => addNew
      *
-     * @param $string
+     * @param string $string
      * @return string
      */
-    protected function convertToCamelCase($string)
+    protected function convertToCamelCase(string $string): string
     {
         return lcfirst($this->convertToStudlyCaps($string));
     }
@@ -177,7 +177,7 @@ class Router
      *
      * @return string The URL with the query string variables removed
      */
-    protected function removeQueryStringVariables($url)
+    protected function removeQueryStringVariables(string $url): string
     {
         if ($url != '') {
 
@@ -191,7 +191,7 @@ class Router
                         }*/
 
 
-            if (strpos($parts[0], '=') === false) {
+            if (!str_contains($parts[0], '=')) {
                 $url = $parts[0];
             } else {
                 $url = ''; // Fallback to Home route ?!
@@ -207,7 +207,7 @@ class Router
      *
      * @return string
      */
-    protected function getNamespace()
+    protected function getNamespace(): string
     {
         $namespace = 'App\Controllers\\';
 
