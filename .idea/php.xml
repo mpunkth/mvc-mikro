@@ -13,6 +13,35 @@
       <path value="$PROJECT_DIR$/Vendor/composer" />
       <path value="$PROJECT_DIR$/Vendor/squizlabs/php_codesniffer" />
       <path value="$PROJECT_DIR$/Vendor/phpcompatibility/php-compatibility" />
+      <path value="$PROJECT_DIR$/Vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/Vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/Vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/Vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/Vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/Vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/Vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/Vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/Vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/Vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/Vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/Vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/Vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/Vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/Vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/Vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/Vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/Vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/Vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/Vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/Vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/Vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/Vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/Vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/Vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/Vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/Vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/Vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/Vendor/webmozart/assert" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.0" />

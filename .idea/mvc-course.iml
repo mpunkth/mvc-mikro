@@ -12,6 +12,35 @@
       <excludeFolder url="file://$MODULE_DIR$/Vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/Vendor/squizlabs/php_codesniffer" />
       <excludeFolder url="file://$MODULE_DIR$/Vendor/phpcompatibility/php-compatibility" />
+      <excludeFolder url="file://$MODULE_DIR$/Vendor/phar-io/manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/Vendor/phar-io/version" />
+      <excludeFolder url="file://$MODULE_DIR$/Vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/Vendor/phpspec/prophecy" />
+      <excludeFolder url="file://$MODULE_DIR$/Vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/Vendor/phpunit/php-invoker" />
+      <excludeFolder url="file://$MODULE_DIR$/Vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$MODULE_DIR$/Vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/Vendor/phpunit/php-token-stream" />
+      <excludeFolder url="file://$MODULE_DIR$/Vendor/phpdocumentor/reflection-common" />
+      <excludeFolder url="file://$MODULE_DIR$/Vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/Vendor/phpdocumentor/reflection-docblock" />
+      <excludeFolder url="file://$MODULE_DIR$/Vendor/sebastian/code-unit-reverse-lookup" />
+      <excludeFolder url="file://$MODULE_DIR$/Vendor/phpdocumentor/type-resolver" />
+      <excludeFolder url="file://$MODULE_DIR$/Vendor/sebastian/comparator" />
+      <excludeFolder url="file://$MODULE_DIR$/Vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/Vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/Vendor/sebastian/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/Vendor/sebastian/exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/Vendor/sebastian/global-state" />
+      <excludeFolder url="file://$MODULE_DIR$/Vendor/sebastian/object-enumerator" />
+      <excludeFolder url="file://$MODULE_DIR$/Vendor/sebastian/object-reflector" />
+      <excludeFolder url="file://$MODULE_DIR$/Vendor/sebastian/recursion-context" />
+      <excludeFolder url="file://$MODULE_DIR$/Vendor/sebastian/resource-operations" />
+      <excludeFolder url="file://$MODULE_DIR$/Vendor/sebastian/type" />
+      <excludeFolder url="file://$MODULE_DIR$/Vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/Vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/Vendor/theseer/tokenizer" />
+      <excludeFolder url="file://$MODULE_DIR$/Vendor/webmozart/assert" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
